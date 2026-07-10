@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+}
+
 ul {
     list-style: none;
 }
@@ -22,12 +27,65 @@ img {
 /* =========== Reset Css End =========== */
 
 /* =========== Common Css Start =========== */
-.container{
+.container {
     width: 1320px;
     margin: 0 auto;
 }
-.row{
+
+.flex-container {
     display: flex;
     flex-wrap: wrap;
 }
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.primary-btn{
+    padding: 12px 24px;
+    background-color: #1D4ED8;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.primary-btn:hover{
+    background-color: #163ba0;
+}
 /* =========== Common Css End =========== */
+
+/* =========== Nav Css Start =========== */
+#nav {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    padding: 24px 0;
+}
+
+#nav .nav-menu ul li a {
+    display: inline-block;
+    font-family: "Arimo", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 12px 12px;
+    color: #575757;
+    transition: color .2s;
+}
+
+#nav .nav-menu ul li a:hover{
+    color: #1D4ED8;
+}
+/* =========== Nav Css End =========== */

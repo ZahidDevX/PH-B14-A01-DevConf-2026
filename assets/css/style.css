@@ -105,7 +105,7 @@ img {
 #hero::after {
     position: absolute;
     content: '';
-    width: 50%;
+    width: 80%;
     height: 100%;
     left: 0;
     top: 0;
@@ -146,3 +146,57 @@ img {
     font-size: 24px;
 }
 /* =========== Hero Section Css End =========== */
+
+/* =========== Speakers Section Css Start =========== */
+#speakers{
+    padding: 80px 0;
+}
+
+#speakers .section-header{
+    margin-bottom: 56px;
+}
+#speakers .section-header h2{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    color: #000102;
+}
+
+#speakers .speakers-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 32px;
+}
+
+#speakers .speakers-grid .speaker-item{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#speakers .speakers-grid .speaker-item .speaker-img img{
+    width: 100%;
+}
+
+#speakers .speakers-grid .speaker-item .speaker-info{
+    padding: 24px;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#speakers .speakers-grid .speaker-item .speaker-info p.label{
+    font-size: 12px;
+    font-weight: 600;
+    color: #2563EB;
+}
+#speakers .speakers-grid .speaker-item .speaker-info h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D1B2A;
+}
+#speakers .speakers-grid .speaker-item .speaker-info p.designation{
+    font-size: 14px;
+    color: #575757;
+}
+#speakers .speakers-grid .speaker-item{}
+/* =========== Speakers Section Css End =========== */

@@ -1,3 +1,17 @@
+First Prompt (ChatGPT):
+-----------------------
+I enrolled in a Web Development course, and I have now completed the HTML and CSS modules, including Flexbox, Grid, Position, Margin, Padding, and other CSS concepts.
+
+As part of the course, I was given an assignment, which I have almost completed. One of the assignment tasks is to create a relevant section using AI and submit both the AI prompt and the generated section.
+
+Now, write a prompt for Claude AI to generate that section. Keep in mind that the prompt should be of the highest quality, well-structured, and written in the best possible way.
+
+I will provide you with my completed project code. The new section should be placed between the Pricing section and the Footer.
+
+-------------------------------------------
+Second Prompt (Claude):
+-------------------------------------------
+
 Act as an award-winning Senior Frontend Developer and UI/UX Designer with expertise in creating premium conference landing pages.
 
 I have already built a static "Dev Conference 2026" website using ONLY HTML and CSS.

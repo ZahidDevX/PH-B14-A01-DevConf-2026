@@ -49,7 +49,7 @@ img {
     align-items: center;
 }
 
-.primary-btn{
+.primary-btn {
     padding: 12px 24px;
     background-color: #1D4ED8;
     color: #ffffff;
@@ -61,9 +61,11 @@ img {
     cursor: pointer;
     transition: background-color .3s;
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     background-color: #163ba0;
 }
+
 /* =========== Common Css End =========== */
 
 /* =========== Nav Css Start =========== */
@@ -85,7 +87,62 @@ img {
     transition: color .2s;
 }
 
-#nav .nav-menu ul li a:hover{
+#nav .nav-menu ul li a:hover {
     color: #1D4ED8;
 }
+
 /* =========== Nav Css End =========== */
+
+/* =========== Hero Section Css Start =========== */
+#hero {
+    background-image: url('./../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+#hero::after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: -1;
+}
+
+#hero .container{
+    min-height: 90vh;
+    padding: 60px 0;
+    flex-direction: column;
+}
+
+#hero .hero-content{
+    margin-top: 80px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 70%;
+}
+
+#hero .hero-content h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#hero .hero-content h1 span{
+    font-style: italic;
+}
+
+#hero .hero-content p{
+    padding: 0 20px;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+#hero .hero-cta .primary-btn{
+    font-size: 24px;
+}
+/* =========== Hero Section Css End =========== */

@@ -350,6 +350,187 @@ img {
 
 /* =========== Pricing Section Css End =========== */
 
+/* =========== Venue, FAQ & Final CTA Section Css Start =========== */
+#info-cta {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+/* ----- Section Header (shared) ----- */
+#info-cta .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+#info-cta .section-header h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+}
+
+#info-cta .section-header p {
+    font-size: 16px;
+    color: #575757;
+}
+
+/* ----- Venue ----- */
+#info-cta .venue-wrapper {
+    margin-bottom: 80px;
+}
+
+#info-cta .venue-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+#info-cta .venue-details {
+    width: 60%;
+    padding: 48px;
+}
+
+#info-cta .venue-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 28px;
+}
+
+#info-cta .venue-list {
+    gap: 20px;
+}
+
+#info-cta .venue-list li {
+    gap: 16px;
+}
+
+#info-cta .venue-icon {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #2563EB;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#info-cta .venue-list h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 2px;
+}
+
+#info-cta .venue-list p {
+    font-size: 14px;
+    color: #575757;
+    line-height: 1.4;
+}
+
+#info-cta .venue-visual {
+    width: 40%;
+    align-self: stretch;
+    background-color: #0D1B2A;
+}
+
+#info-cta .venue-visual i {
+    font-size: 140px;
+    color: #2563EB;
+}
+
+/* ----- FAQ ----- */
+#info-cta .faq-wrapper {
+    margin-bottom: 80px;
+}
+
+#info-cta .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+#info-cta .faq-item {
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 28px;
+    background-color: #ffffff;
+    transition: all .3s;
+}
+
+#info-cta .faq-item:hover {
+    border-color: #2563EB;
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.1);
+    transform: translateY(-4px);
+}
+
+#info-cta .faq-item h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+}
+
+#info-cta .faq-item p {
+    font-size: 14px;
+    color: #575757;
+    line-height: 1.6;
+}
+
+/* ----- Final CTA ----- */
+#info-cta .final-cta {
+    background-color: #2563EB;
+    border-radius: 12px;
+    padding: 64px 40px;
+    text-align: center;
+    gap: 16px;
+}
+
+#info-cta .final-cta h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#info-cta .final-cta p {
+    font-size: 16px;
+    color: #ffffff;
+    opacity: .85;
+    max-width: 560px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+#info-cta .final-cta-buttons {
+    gap: 16px;
+    margin-top: 8px;
+}
+
+#info-cta .final-cta-buttons .cta-primary {
+    background-color: #0D1B2A;
+}
+
+#info-cta .final-cta-buttons .cta-primary:hover {
+    background-color: #000000;
+}
+
+#info-cta .final-cta-buttons .cta-outline {
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+#info-cta .final-cta-buttons .cta-outline:hover {
+    background-color: #ffffff;
+    color: #2563EB;
+}
+
+/* =========== Venue, FAQ & Final CTA Section Css End =========== */
+
 /* =========== Footer Css Start =========== */
 #footer {
     background-color: #0D1B2A;
@@ -357,16 +538,18 @@ img {
     color: rgba(255, 255, 255, 0.4)
 }
 
-#footer hr{
+#footer hr {
     height: 1px;
     background-color: rgba(255, 255, 255, 0.4);
     border: none;
     margin: 20px 0;
 }
-#footer .footer-social-links ul{
+
+#footer .footer-social-links ul {
     gap: 20px;
 }
-#footer .footer-social-links ul li a{
+
+#footer .footer-social-links ul li a {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -375,7 +558,8 @@ img {
     font-size: 20px;
     transition: all .3s;
 }
-#footer .footer-social-links ul li a:hover{
+
+#footer .footer-social-links ul li a:hover {
     background-color: #2563EB;
     color: #ffffff;
 }
